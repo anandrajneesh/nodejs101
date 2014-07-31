@@ -6,7 +6,7 @@ function start(route){
     function onRequest(request,response){
         var pathname = url.parse(request.url).pathname;
         route(pathname);
-        console.log("Received request for "+pathname );
+        console.log("Received request for: "+pathname );
         response.writeHead(200, {'Content-type':'text/plain'});
         response.write("This app is running fine");
         response.end();
