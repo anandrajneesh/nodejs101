@@ -47,11 +47,6 @@ function show(response, request) {
     fs.createReadStream("C:/TMEMM13/snapshots/tmp.PNG").pipe(response);
 }
 
-function dd(response,requyest){
-
-}
-
-
 
 exports.start = start;
 exports.upload = upload;
