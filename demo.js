@@ -3,3 +3,7 @@ var func = function () {
 }
 
 func;
+
+var duc = { 'something': 'seomthing' };
+
+console.log('hasOwnProperty' in duc);
